@@ -1,0 +1,899 @@
+/*          Responsive styles
+================================================== */
+
+@media only screen and (min-width: 1678px) and (max-width: 1923px) {
+
+
+}
+
+@media only screen and (min-width: 1390px) and (max-width: 1677px) {
+  
+
+}
+/*                     Tablet Landscape
+=======================================================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /*--------------------------------------
+   Header And SLider
+----------------------------------------*/
+  .navigation .col-md-8 {
+    flex: 0 0 63.667%;
+    max-width: 63.667%;
+  }
+ 
+ .base-header h2 {
+    font-size: 40px; 
+}
+
+/*Promo Section*/
+.promo_cont_text {
+    padding-left: 64px;
+}
+ .promo_cont_text h2 { 
+    font-size: 27px; 
+}
+.promo_section .col-sm-12:nth-child(3) { 
+    margin-left: 28px;
+}
+.promo_section::after { 
+    width: 346px; 
+}
+.promo_number { 
+    margin-left: 0px; 
+}
+/* Service*/
+ 
+.animate_item1,
+.animate_item2
+ {
+  top: 6%;
+}
+/* Comparison / Achive Section */
+.achive_area h4 { 
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+/* Why Choose Us */
+.why_acrdin .btn {
+    font-size: 18px;
+}
+.why_acrdin .btn i { 
+    margin-top: 9px; 
+}
+.why_cta_text { 
+    flex-direction: column;
+}
+.why_cta_text h2 {
+    margin-bottom: 18px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+/* Work*/
+.project_text {
+    padding: 22px 20px;
+    width: 85%;
+}
+.project_view a { 
+  margin-right: 25px; 
+  margin-top: 10px; 
+}
+.project-item:hover .project_view a:last-child { 
+  margin-top: 60px;
+}
+/*blog*/
+.blog_list_img { 
+    margin-right: 15px; 
+}
+.blog_wrp_list h4 {
+    font-size: 16px; 
+    margin-top: 0px;
+    line-height: 22px;
+}
+.blog_wrp_list .blog_date span {
+    margin-right: 5px;
+}
+.blog_wrp_list .blog_date span:last-child {
+    margin-top: -6px;
+}
+.blog_wrp_list .blog_info { 
+    padding-bottom: 0px;
+}
+
+/* CTA Section */
+.bottom_cta h2 {
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+/* Footer */
+
+.footer_recent_blog .post_cont a span { 
+  font-size: 14px;
+  margin-top: 3px;
+}
+.footer_recent_blog .post-date {
+  font-size: 14px;
+}
+/*  Single Page
+----------------------------------------*/
+ 
+/*  Team */
+.team_info { 
+  padding-top: 20px; 
+}
+.team_info p { 
+  margin-bottom: 12px;
+}
+
+/*  Single Service */
+.angle_icon img {
+  width: 80px;
+}
+.angle_icon { 
+  margin-right: -54px;
+}
+
+/*  Contact Page */
+.contact_pg_address {
+  padding: 40px 35px 36px; 
+}
+.contact_pg_address h3 { 
+  font-size: 30px;
+}
+
+/*  Blog Page */
+.recnt_pst_imge {
+  margin-right: 13px;
+}
+.recent-title > a {
+  font-size: 15px;
+}
+
+
+}
+
+ 
+
+
+/*                      Tablet Portrait
+=======================================================================================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*--------------------------------------
+   Header And SLider
+----------------------------------------*/
+ 
+.navigation .logo img {
+    margin-top: 26px; 
+}
+.header_cart { 
+    margin-left: -2px;
+}
+.header_cart ul { 
+    padding-left: 13px;
+}
+#navigation.small-screen #menu-button::before,
+#navigation.small-screen #menu-button.menu-opened::before,
+#navigation.small-screen #menu-button.menu-opened::after  { 
+    background: #fff; 
+}
+#navigation.small-screen #menu-button::after { 
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff; 
+}
+#navigation.small-screen > ul {
+  margin-top: -10px;
+  border-left: 1px solid rgba(120, 120, 120, 0.2);
+  border-right: 1px solid rgba(120, 120, 120, 0.2);
+  border-bottom: 1px solid rgba(120, 120, 120, 0.2);
+  margin-bottom: 15px;
+  margin-left: -180px;
+  width: 690px;
+}
+
+  #navigation.small-screen #menu-button {
+    padding: 38px;
+    margin-top: 27px;
+    margin-right: 60px;
+  }
+
+  #navigation > ul > li > a {
+    padding: 16px 20px;
+  }
+
+  #navigation li:hover > ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  #navigation > ul > li.has-sub > a {
+    padding: 17px 20px;
+  }
+
+/* Slider */
+.slider_home h2 {
+    font-size: 55px; 
+}
+
+/* Promo */
+.promo_section::after {
+    background: transparent;
+}
+.promo_section .col-sm-12:nth-child(1), 
+.promo_section .col-sm-12:nth-child(2) {
+    max-width: 50%; 
+}
+.promo_section .col-sm-12:last-child{
+    display: none;
+}
+ 
+/*  Service */
+.animate_item1,
+.animate_item2  {
+  top: 6%;
+}
+
+/*------------------------------------------------------------------Tab----------------------
+   Single Page
+----------------------------------------*/
+ 
+/*  Single  Gallery */
+.project_info_wrap { 
+  grid-gap: 30px; 
+}
+.project_info_icon {
+  position: inherit;
+}
+.project_info_content {
+  padding-left: 0px;
+  margin-top: 22px;
+}
+/*  Pricing page */
+.pricng_lst span {
+  width: auto;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+.pricng_lst span::after {
+  top: 5px;
+}
+
+
+/*  Team  */
+.team_img { 
+  width: 37%;
+}
+/*  Single Service */
+.angle_icon {
+  margin-right: -54px;
+}
+.angle_icon img {
+  width: 80px;
+}
+.single_service_left_botom .sing_service_item {
+  padding: 40px 30px 30px; 
+}
+.download_brochur ul { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
+/*  =======================
+      Home Two
+====================== */
+.promo_col:last-child {
+  display: none;
+}
+
+
+}
+
+
+/*                      Tablet & Phone Common section
+=======================================================================================*/
+@media only screen and (max-width: 991px) {
+
+  /*  Header */
+  .search_wrp .header-search-input { 
+    padding: 0 5px; 
+    font-size: 14px; 
+    letter-spacing: 0px;
+    width: 98%;
+  }
+  .search_wrp .search-field {
+    width: 90%;
+}
+  .header_cart {
+    margin-left: 15px;
+  }
+  #navigation.small-screen #menu-button { 
+    margin-right: 44px;
+  }
+
+/*  About Section */
+.promo_section .col-sm-12:last-child {
+  display: none;
+}
+  .base-header { 
+      width: 100%; 
+  }
+  .about-section {
+    padding: 100px 0px 100px;
+  }
+  #scene .about_img.layer {
+    transform: inherit !important;
+    margin-bottom: 37px;
+}
+
+
+/* quote section */
+.quote-section {
+  background-position: unset !important;
+  padding-top: 93px;
+  padding-bottom: 100px;
+}
+.quote-section .nice-select {
+  margin-bottom: 30px;
+}
+.quote-section .contact-form-warper #submit-contact {
+  margin-top: 0px;
+}
+
+/*  Comparizon Section */
+.comparison_sec .beforeafterdefault {
+  margin-bottom: 30px;
+}
+.achive_area .col {
+  padding: 27px 20px 25px;
+}
+
+/* why choose section */
+.why-choose-section { 
+  padding-bottom: 0px;
+}
+.why_cta { 
+  background-position: 50% 100%; 
+  height: auto;
+  width: auto;
+  float: inherit;
+  background-size: cover;
+  position: inherit; 
+  margin-top: 100px;
+}
+.why_cta_text {
+  background: transparent;
+  padding: 40px 15px; 
+  max-width: 720px;
+  margin: auto;
+}
+.why_cta::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #19C133;
+  opacity: .9;
+  z-index: -1;
+}
+
+/*   project section */
+.project-section {
+  padding-top: 92px; 
+}
+.project_text {
+  padding: 22px 20px;
+  width: 85%;
+}
+.project_view a { 
+margin-right: 25px; 
+margin-top: 25px; 
+}
+.project-item:hover .project_view a:last-child { 
+margin-top: 75px;
+}
+
+/*  Testimonials Section  */
+.testi_wrp {
+  padding: 34px 40px 40px;
+}
+
+
+/*  Blog Section  */
+.blog-section .col-lg-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  margin-top: 30px;
+}
+.blog_list_img {
+  width: auto;
+  margin-right: 0px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.blog_wrp_list h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  line-height: 26px;
+}
+.blog_date span {
+  margin-right: 12px;
+}
+.blog_wrp_list {
+  border-bottom: 1px solid #d6e6e1 !important;
+  padding-bottom: 5px;
+}
+
+
+/* CTA Section */
+.bottom_cta .col-sm-12 { 
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  margin-top: -10px;
+}
+
+/*  Footer */
+.footer-section .col-sm-12:first-child,
+.footer-section .col-sm-12:nth-child(2) {
+  margin-bottom: 23px;
+}
+
+/* ======== SIngle Page ( Tablet & Phone Common ) ======= */
+/*  Single Gallery Page */
+.proj_client_goal_dtls {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+/*  Single Service */
+.single_service_right { 
+  padding-top: 50px;
+}
+.single_service .row .col-lg-8 {
+  order: 0;
+}
+
+/*  Contact Page */
+.contact_pg_address {
+  margin-bottom: 50px;
+}
+.contact-form-warper .con-field { 
+  margin-bottom: 15px; 
+}
+.contact_pg_contact .contact-form-warper .nice-select {
+  margin-bottom: 15px;
+}
+
+/*  Blog Page */
+.widget-area {
+  margin-top: 50px;
+}
+.recnt_pst_imge {
+  width: 90px;
+  margin-right: 15px;
+}
+.recent-title { 
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ====================
+    Home Two
+======================== */
+.header_info_two { 
+  grid-template-columns: repeat(2, 1fr); 
+}
+.header_info_col:nth-child(2) {
+  display: none;
+}
+.navigation_two {
+  background-color: #051135; 
+  border-top: none;
+}
+ 
+.navigation_two #navigation.small-screen > ul {
+  margin-left: 15px;
+}
+.navigation_two #navigation {
+  margin-right: 0px !important;
+  margin-left: -15px  !important;
+  float: left;
+}
+.navigation_two #navigation li > a {
+  color: #fff;
+}
+.navigation_two #navigation.small-screen #menu-button::before,
+.navigation_two #navigation.small-screen #menu-button::after { 
+  left: 15px;
+}
+
+
+}
+
+
+
+/*                          Phone
+=======================================================================================*/
+
+@media only screen and (max-width: 767px) {
+    /*--------------------------------------
+   Header And SLider
+----------------------------------------*/
+  .header_topbar {
+    display: none;
+  }
+
+  .header_cart {
+    position: absolute;
+    right: 0px;
+    margin-right: 7px;
+  }
+
+  .header_cart ul {
+    padding-left: 10px;
+  }
+
+  .navigation .container {
+    position: relative;
+  }
+
+  .navigation .logo {
+    margin-top: -78px;
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .navigation .logo img {
+    margin-top: 109px;
+    width: 160px;
+}
+
+  .navigation .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: -77px;
+  }
+
+  #navigation.small-screen > ul {
+    margin-top: -10px;
+    border-left: 1px solid rgba(120, 120, 120, 0.2);
+    border-right: 1px solid rgba(120, 120, 120, 0.2);
+    border-bottom: 1px solid rgba(120, 120, 120, 0.2);
+    margin-bottom: 15px;
+    margin-left: 17px;
+  }
+
+  #navigation.small-screen #menu-button {
+    padding: 38px;
+    margin-top: 26px;
+    margin-right: 84px;
+  }
+
+  #navigation > ul > li > a {
+    padding: 16px 20px;
+  }
+
+  #navigation li:hover > ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  #navigation > ul > li.has-sub > a {
+    padding: 17px 20px;
+  }
+
+    /*---- Slider----- */
+  .single_slider .col-lg-7.col-xs-12 {
+    width: 100%;
+  }
+
+  .single_slider {
+    height: 600px;
+  }
+
+  .single_slider .container {
+    margin-top: -20px;
+  }
+
+  .single_slider.slide_bg_2 .col-lg-6 {
+    margin-left: 0px;
+  }
+
+  .slider_home h2 {
+    font-size: 45px; 
+    line-height: 1.2;
+  }
+  .slider_home h2 span {
+    display: inline;
+  }
+  .slider_home h5 {
+    font-size: 15px;
+  }
+  .slider_btn a {
+    margin-top: 10px;
+}
+/*  Promo Section */
+.promo_section .col-sm-12:nth-child(1), .promo_section .col-sm-12:nth-child(2) {
+  max-width: inherit;
+  padding: 40px 15px 30px;
+}
+.promo_section::after {
+  display: none; 
+}
+.promo_section {
+  padding-bottom: 27px;
+  padding-top: 25px;
+}
+
+/*  About  */
+.base-header h2 { 
+  font-size: 35px; 
+}
+.base-header small {
+  font-size: 15px;
+}
+/*  Service */
+.animate_item1,
+.animate_item2  {
+  display: none;
+}
+/*   Why Choose Us  */
+.why_acrdin .card-header { 
+  padding: 10px 15px 8px;
+}
+.why_num {
+  left: 15px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.why_acrdin h3 {
+  margin-top: -7px;
+  padding-left: 35px;
+  padding-right: 25px;
+}
+ 
+.why_cta_text {
+  background: transparent;
+  padding: 42px 15px 50px;
+  max-width: 540px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+/*  Work */
+.project-section .col-md-12 {
+  padding: 0px; 
+}
+/*  Blog */
+.blog_wrp { 
+  margin-bottom: 30px;
+}
+.blog_wrp img {
+  width: 100%;
+  height: auto;
+}
+.blog-section .col-lg-4 { 
+  grid-template-columns: 1fr; 
+  margin-top: 0px;
+}
+.blog_list_img {
+  width: 100%; 
+  height: auto;
+}
+
+/*--------------------------------------
+   footer Section
+----------------------------------------*/
+  .footer-section { 
+    padding: 65px 0 0; 
+  }
+  .subfooter_wrap { 
+    flex-direction: column;
+    align-items: start;
+    gap: 9px;
+    margin-top: 54px;
+  }
+  .footer-section .col-sm-12:nth-child(2) {
+    margin-bottom: 0px;
+  }
+  .footer-section .widget h5 {
+    margin-bottom: 20px;
+  }
+
+  .widget.quick_lnk {
+    margin-bottom: 35px;
+  }
+
+  .widget .recent-gallery {
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .footer_recent_blog {
+    margin-bottom: 30px;
+  }
+
+ 
+/*--------------------------------------
+   Single Page
+---------------------------------------------- ph -----------------------------------*/
+ 
+/* About page */
+.team_info {
+  padding: 20px;
+}
+.team_img img {
+  max-height: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+}
+.team_img {
+  width: 100%;
+}
+
+/*  Single  Gallery */
+.project_info_wrap { 
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px; 
+}
+.proj_client_goal_dtls ul { 
+  grid-template-columns: repeat(1, 1fr); 
+}
+.portfolio-single-detail {
+  position: relative;
+  top: -30px;
+  left: 5%;
+  width: 90%;
+}
+
+/*  Pricing */
+.pricing-section {
+  margin-bottom: -90px;
+}
+.pricing-box { 
+  margin-bottom: 90px;
+}
+
+/*  Service Page */
+.service_pg_quote .contact-form-warper {
+  padding: 51px 45px 60px;
+}
+
+
+/*  SIngle Service */
+.angle_icon img {
+  display: none;
+}
+.cleaning_process { 
+  margin-bottom: 13px;
+}
+.process-item { 
+  margin-bottom: 25px;
+}
+
+/*  Blog Page */
+.blog_pg_info {
+  padding: 30px 20px 0px; 
+}
+.single_blog_container .blog_pg_info {
+  padding: 30px 20px 30px;
+}
+.post_tags h5 {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: -6px;
+}
+.single_blog_container .comment_imgg { 
+	margin-right: 15px;
+}
+.single_blog_container .blog_date span { 
+  margin-bottom: 4px;
+  display: inline-block;
+}
+.wiget-recent-post { 
+  padding: 30px 25px;
+}
+/*  ============================= 
+      Home Two
+ ============================= */
+.navigation_two .col-md-8 { 
+  margin-left: 0px;
+}
+.navigation_two .menu_book_appont {
+  margin-top: 8px;
+  position: absolute;
+  right: 0px;
+}
+.header_info_two {
+  grid-template-columns: repeat(1, 1fr);
+}
+.header_info_col:first-child{
+  display: none;
+}
+.header_info_two { 
+  padding-right: 15px;
+}
+.navigation_two #navigation.small-screen #menu-button {
+  margin-top: 12px; 
+  padding-bottom: 21px;
+}
+.navigation_two #navigation.small-screen > ul { 
+  margin-top: 5px;
+}
+/*  Slider */
+
+ .slides_wrapper.slides_wrapper_two .owl-dots {
+  display: none !important;
+}
+.slides_wrapper_two .single_slider {
+  height: 750px;
+}
+
+
+}
+
+/* Mobile Vertical Layout: 488px 
+===============================================================================*/
+@media only screen and (min-width: 488px) and (max-width: 767px) {
+   
+
+ /*  Single  Gallery */
+ 
+.proj_client_goal_dtls ul { 
+  grid-template-columns: repeat(2, 1fr); 
+}
+
+
+  /* .funfact_wapr .col-md-4.col-sm-12 {
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+  .process-section .col-sm-12 {
+      flex: 0 0 50%;
+      max-width: 50%;
+  } */
+ 
+
+}
+/* Mobile Vertical Layout: 350px 
+===============================================================================*/
+@media only screen and (min-width: 288px) and (max-width: 350px) {
+
+.navigation .logo img {
+    margin-top: 113px;
+    width: 114px;
+}
+
+.achive_area { 
+  grid-template-columns: 1fr; 
+}
+
+}
+
+/* Mobile Vertical Layout: 450 
+===============================================================================*/
+@media only screen and  (max-width: 445px) {
+
+.header_info_col:last-child {
+  display: none;
+}
+.header_topbar_two .logo_two { 
+  width: 100%;
+  text-align: center;
+}
+
+}
